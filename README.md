@@ -20,6 +20,7 @@ This task generates a Python program and an interactive dashboard to understand 
 - python `analyze_data.py`
 #### 3. **Launch Dashboard**: `make dashboard` 
 - streamlit run `dashboard.py`
+- open your browser to [http://localhost:8501](http://localhost:8501).
 
 ---
 
