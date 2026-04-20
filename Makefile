@@ -1,5 +1,5 @@
 # Variables
-PYTHON = python3
+PYTHON = python
 PIP = pip
 
 .PHONY: setup pipeline dashboard clean

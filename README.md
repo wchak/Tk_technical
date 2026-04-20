@@ -14,9 +14,12 @@ This task generates a Python program and an interactive dashboard to understand 
 - **cell-count.csv**: The raw input data.
 
 ## How to Run (Step by Step)
-1. **Setup dependencies**: `make setup`
-2. **Run Pipeline**: `make pipeline`
-3. **Launch Dashboard**: `make dashboard` 
+### 1. **Setup dependencies**: `make setup`
+### 2. **Run Pipeline**: `make pipeline`
+- python `load_data.py`
+- python `analyze_data.py`
+### 3. **Launch Dashboard**: `make dashboard` 
+- streamlit run `dashboard.py`
 
 ---
 
